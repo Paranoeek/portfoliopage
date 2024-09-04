@@ -350,15 +350,16 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
   }
   
   .article-container {
     display: flex;
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   article {
